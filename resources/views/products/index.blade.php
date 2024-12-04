@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title','HomePage')
 @section('main')
+<h2>Product List : </h2>
 <a class="btn btn-primary" href="{{ route('products.create') }}">Create</a>
 <table class="table">
     <thead>
